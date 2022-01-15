@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "rootDir": "src",
+    "outDir": "dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "resolveJsonModule": true,
+    "listEmittedFiles": false,
+    "traceResolution": false,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "listFiles": false,
+    "strict": true,
+    "pretty": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules/**",
+    "dist/**/*.ts"
+  ]
+}
